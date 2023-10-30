@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Domain">
+      <UniqueIdentifier>{8f00328d-8f23-4ff9-bd59-053beb0dd6bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{d33e5642-1d70-43f0-8dfc-4335c3cd858e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presentation">
+      <UniqueIdentifier>{70f4eaff-40c0-47e1-a6e0-cf5d1f27cf18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{fd736291-144c-4b50-aca9-3978974feb23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{8829ce30-f792-461a-82bc-e104943fa105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Library">
+      <UniqueIdentifier>{78753a2c-5beb-4539-8b69-4f816e88be8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\BuildMode">
+      <UniqueIdentifier>{8c35ddc0-c822-4bb1-b069-c26d4f91659e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Constants">
+      <UniqueIdentifier>{0582c17c-1a22-4bc9-b78e-6ff6a750f574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Data_Sources">
+      <UniqueIdentifier>{cc6ec040-a3eb-4e2f-98d8-044d27e0ad37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Data_Sources\Remote">
+      <UniqueIdentifier>{17efed5e-15d4-4a76-8f88-48ce1c8ac343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presentation\Screen">
+      <UniqueIdentifier>{f2214ce1-2c5c-4994-a849-0e9c6d55d57c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Usecase">
+      <UniqueIdentifier>{c8d257ea-b577-4960-a827-1ae374676bdc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Library\Library.h">
+      <Filter>Core\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\BuildMode\BuildMode.h">
+      <Filter>Core\BuildMode</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Constants\Constants.h">
+      <Filter>Core\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\Data_Sources\Remote\Remote_api.h">
+      <Filter>Data\Data_Sources\Remote</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\Screen\Home.h">
+      <Filter>Presentation\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\Usecase\Usecase.h">
+      <Filter>Domain\Usecase</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
